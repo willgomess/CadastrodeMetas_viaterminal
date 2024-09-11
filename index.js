@@ -80,7 +80,7 @@ const metasAbertas = async () => {
     })
 }
 
-const deletarMetas = () => {
+const deletarMetas = async () => {
     const metasDesmarcadas = metas.map((meta) => {
         return { value: meta.value, checked: false }
     })
